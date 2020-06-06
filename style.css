@@ -1,0 +1,134 @@
+.navbar {
+    background-color: rgba(15, 15, 15, 0.658);
+    box-shadow: 10px 0 5px -5px black;
+}
+.navbar .navbar-nav{
+    margin: 0 auto ;
+}
+.logo{
+    width: 180px;
+}
+.navbar .nav-item a{
+    color: #d01d33;
+    color: aliceblue;
+    
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: larger;
+    margin-left: 10px;
+
+}
+.navbar .nav-item a:hover{
+    text-shadow: 4px 3px 5px rgb(255, 0, 0);
+}
+
+.body{
+
+    background: url('img/hom1.jpg') no-repeat center center fixed;
+    background-size: cover ; 
+    width: 100%;
+    height: 100%;
+       
+}
+.wlogo{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 35% ;
+    padding-top: -50px;
+    padding-bottom: 30px;
+    width: 450px;
+    margin-top:80px ;
+    box-shadow: 10px 10px 28px 3px rgba(0, 0, 0, 0.658),-10px -10px 28px 3px rgba(0, 0, 0, 0.658) ;              }
+
+    .sbutton{
+        width: 150px;
+        height: 50px;
+        font-family: "sofia";
+        background: transparent;
+        background-color: rgba(255, 255, 255, 0.603);
+        font-weight: 1000;
+        color: rgb(29, 29, 29);
+        border-radius: 10px;
+        font-size: larger;
+        outline: none;
+      
+    }
+
+    .sbutton:hover{
+        background-color: rgba(15, 15, 15, 0.658);
+        color: white;
+        cursor: pointer;
+        
+    }
+
+    .head {
+        background-color: rgb(42, 121, 121);
+        background-color: #a70202;
+        height: 35px;
+    }
+    .icon{
+        width: 30px;
+        color: white;
+        
+    }
+
+    .icon:hover{
+        font-size: 23px;
+        color: rgb(226, 225, 225);
+        text-decoration: none;
+    }
+    .foot{
+        background-color: rgb(24, 24, 24);
+        margin-top: 80px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .foot a , .foot h3,.foot li{
+        color:rgb(182, 182, 182);
+    }
+  
+    
+     /* Screen Extra Large */
+     @media (max-width: 1200px) { }
+
+    /* Screen Large */
+    @media (max-width: 992px) {
+
+    }
+
+
+    /* Screen Medium */
+    @media (max-width: 768px) {
+        .wlogo{
+            width: 320px;
+        }
+        .sbutton{
+            width: 120px;
+            font-size: medium;
+            height: 40px;
+        }
+     }
+
+     /* Screen Small */
+     @media (max-width: 576px) {
+        .cent{
+            justify-content: center;
+        }
+
+      }
+
+
+     @media (max-width: 370px) {
+        .wlogo{
+            width: 290px;
+        }
+      }
+      @media (max-width: 370px) {
+        .wlogo{
+            width: 270px;
+        }
+      }
+      @media (max-width: 300px) {
+        .wlogo{
+            width: 200px;
+        }
+      }
+

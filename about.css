@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(15, 15, 15);
+    box-shadow: 10px 0 5px -5px black;
+}
+.log{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 160px;
+    color: white;
+}
+.sublog{
+    font-family:monospace;
+    font-size: 30px;
+    color: white;
+}
+.jumbotron {
+    background-image: url('img/Restaurant.gif');
+    background-repeat: no-repeat;
+    background-size: auto 1000px;
+}
+@media (max-width:407px){
+    .log{
+        font-size: 120px;
+    }
+    .sublog{
+        font-size: 25px;
+    }
+}

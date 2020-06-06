@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buffet</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="menustyle.css">
+  <link href='https://fonts.googleapis.com/css?family=Days One' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body class="body">
+
+
+  <section class="head">
+    <div class="container cent ">
+      <div class="row">
+        <div class="col">
+          <a href="#" class="fa fa-facebook mt-2 icon"></a>
+
+          <a href="#" class="fa fa-twitter mt-2 icon"></a>
+          <a href="#" class="fa fa-youtube mt-2 icon"></a>
+          <a href="#" class="fa fa-instagram mt-2 icon"></a>
+        </div>
+        <div class="col" style="text-align: right;">
+          <a href="reg.html" class="mt-2"
+            style="font-family: 'Days One'; color: white; font-size: small; text-decoration: none;">Login/Register</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="navbar navbar-expand-md sticky-top">
+
+    <button class="navbar-toggler custom-toggler " style="border: 2px solid white;" type="button" data-toggle="collapse"
+      data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+      aria-label="Toggle navigation">
+
+      <i class="material-icons" style="color: white;">menu</i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img class="logo" src="img/buffet4.png" alt="logo"></a>
+        </li>
+        <li class="nav-item active">
+
+          <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="order.html">Order Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+  <section class="container order text-dark">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h1 style="color: #a70202;  font-weight: bold; letter-spacing: 5px;   font-family: 'Days One';">Your Order</h1>
+          <p id="appear">Place an order by clicking on the menu items</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container" style="text-align:center;">
+      <div class="row ">
+        <div class="col">
+          <h2>Title</h3>
+          <hr>
+        </div>
+        <div class="col">
+          <h2>Quantity</h3>
+          <hr>
+          
+
+       
+      </div>
+    </div>
+    <div class=" prod-item">
+      
+      
+    </div>
+    <div class="row">
+      <div class="col " >
+        <button class="btn btn-secondary btn-lg" id="orderbtn"> Order</button>
+      </div>
+    </div>
+
+    
+    </div>
+  </section>
+  <section class=" container menu">
+    <div class="container my-4">
+      <div class="row ">
+        <div class="col text-center">
+
+          <h1
+            style="text-align: center; color: #a70202;  font-weight: bold; letter-spacing: 10px;   font-family: 'Days One';">
+            <strong>MENU </strong></strong></h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row d-flex " style="justify-content: center;">
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5 text-center m-1">
+          <div class="menu-item" onclick="chicken()">
+            <h1>Chicken</h1>
+          </div>
+          <div class="menu-sub-item" id="chicken">
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Crunchy Chicken (Boneless) </h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Crunch Chicken</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Broast</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Lahori (Boneless)</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Bohra Fried</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken nuggets</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Lahori Chargha Fry</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Cheese Kabab BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Reshami Kabab BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <hr>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5  text-center m-1">
+          <div class="menu-item" onclick="beef()">
+
+
+            <h1>Beef</h1>
+
+          </div>
+          <div id="beef" class="menu-sub-item">
+            <ul class="product">
+              <li>
+                <h4 class="title">Beef Shashlik</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Seekh Boti BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Seekh Kabab BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Kabab Fry</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Nihari</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Behari Kabab BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Kofta Curry</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Nargisi Kofta</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex " style="justify-content: center;">
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5 text-center m-1">
+          <div class="menu-item" onclick="seafood()">
+            <h1>Seafood</h1>
+          </div>
+          <div class="menu-sub-item" id="seafood">
+            <ul class="product">
+              <li>
+                <h4 class="title">Jumbo Prawn Fried/BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Pomfert BBQ/Fried</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+      
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Prawn Tempura</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Tempura</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Fried</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Lahori</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Finger</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish tikka Boti Fried</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Kabab BBQ</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5  text-center m-1">
+          <div class="menu-item" onclick="mutton()">
+
+
+            <h1>Mutton</h1>
+
+          </div>
+          <div id="mutton" class="menu-sub-item">
+            <ul class="product">
+              <li>
+                <h4 class="title">Whole Stuffed Lamb</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+       
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Makhni</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Chops</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Boti</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Kabab</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+       
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Green Masala</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Tandori Karahi</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Kunna/Payya Kunna</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton White Karahi</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+            <hr>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex " style="justify-content: center;">
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5 text-center m-1">
+          <div class="menu-item" onclick="rice()">
+            <h1>Rice</h1>
+          </div>
+          <div class="menu-sub-item" id="rice">
+            <ul class="product">
+              <li>
+                <h4 class="title">Prawn Biryani</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Biryani</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mutton Biryani</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Beef Biryani</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+
+            <ul class="product">
+              <li>
+                <h4 class="title">Kashmiri Pulao</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Yakhni Pulao</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Sigapori Rice</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Fried Rice</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+       
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Egg Fried Rice</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+
+        
+         
+
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5  text-center m-1">
+          <div class="menu-item" onclick="vegetable()">
+
+
+            <h1>Vegetable</h1>
+
+          </div>
+          <div id="vegetable" class="menu-sub-item">
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Aloo Bhuji+Puri</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Daal Bhari Kachori+Bhaji</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Vegetable Cuttles</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chinese Cuttles</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+       
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Vegetable Egg Roll</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Luqmi Samosa</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Vegetable Biryani</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+      
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Peas Pulao</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+       
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mix Vegetable Pulao</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <hr>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex " style="justify-content: center;">
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5 text-center m-1">
+          <div class="menu-item" onclick="soup()">
+            
+            <h1>Soup</h1>
+          </div>
+          <div class="menu-sub-item" id="soup">
+            <ul class="product">
+              <li>
+                <h4 class="title">Hot & Sour Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Cream Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+     
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Corn Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Thai Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+      
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Clear Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Daal Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Mix Vegetable Soup</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+            <hr>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-5 col-xl-5  text-center m-1">
+          <div class="menu-item" onclick="dessert()">
+
+
+            <h1>Desserts</h1>
+
+          </div>
+          <div id="dessert" class="menu-sub-item">
+            <ul class="product">
+              <li>
+                <h4 class="title">Ice Cream</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Kulfi Clay Pott</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Kulfi Crunch</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Kulfi Pista</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Rasmalai</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Lab-e-shereen</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Gulab jaman</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Baked Alaska</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex " style="justify-content: center;">
+        <div class="col-12 col-md-12 col-lg-10 col-xl-10 text-center m-1">
+          <div class="menu-item" onclick="specialities()">
+            <h1>Specialities</h1>
+          </div>
+          <div class="menu-sub-item" id="specialities">
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Jungli Karahi</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Crunchy Fish Fried</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fish Broast</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Crunchy Chicken</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Lahori Chicken Fry</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Chicken Shahi Tikka</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Malai Chicken</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+           
+            <hr>
+            <ul class="product">
+              <li>
+                <h4 class="title">Fried Wings</h4>
+                <ul>
+                  <li>
+                    <button class="add-cart" style="outline: none;"><i class="material-icons"
+                        style="font-size: 28px;">&#xe8cc;</i></button>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            
+            <hr>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+  <footer class="foot">
+    <div class="container">
+      <div class="row ">
+        <div class="col">
+          <h3>Contact us</h3>
+
+          <ul style="list-style: none; " class="pl-0">
+            <li><i class="fa fa-phone" style="color:rgb(182, 182, 182);"></i> 0300000000</li>
+            <li><i class="fa fa-phone" style="color:rgb(182, 182, 182);"></i> 0300000000</li>
+            <li><i class="fa fa-phone" style="color:rgb(182, 182, 182);"></i> 0300000000</li>
+            <li><i class="fa fa-phone" style="color:rgb(182, 182, 182);"></i> 0300000000</li>
+            <li><i class="	fa fa-envelope-o" style="color:rgb(182, 182, 182);"></i> info@Buffet.com</li>
+          </ul>
+
+        </div>
+        <div class="col">
+          <h3>Connect</h3>
+          <a href="#" class="fa fa-facebook mt-2 icon"></a>
+
+          <a href="#" class="fa fa-twitter mt-2 icon"></a>
+          <a href="#" class="fa fa-youtube mt-2 icon"></a>
+          <a href="#" class="fa fa-instagram mt-2 icon"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="java.js"></script>
+  <script src="cart.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

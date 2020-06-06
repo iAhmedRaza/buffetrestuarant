@@ -1,0 +1,33 @@
+.body{
+    background-image: url('img/ContacT11.png');
+}
+
+.formi input , .formi textarea{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.formi label{
+font-family: 'Days One';
+font-size: large;
+}
+.formi button{
+    font-family: 'Days One';
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formi{
+    margin-top: 40px;
+}
+
+@media (max-width:357px){
+    textarea{
+        width: 98%;
+    }
+}

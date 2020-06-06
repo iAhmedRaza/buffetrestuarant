@@ -1,0 +1,113 @@
+.body{
+    background-image: url("img/bg1.png");
+
+}
+.menu{
+    background-color:rgba(240, 240, 240, 0.692);
+    font-family: 'Days One';
+    padding-bottom: 40px;
+    margin-top: 80px;
+}
+.menu h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-item{
+    background-color: #a70202ee;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.menu-sub-item{
+    background-color: rgba(136, 0, 0, 0.671);
+    color: white;
+    text-align: left;
+    
+}
+.menu-item:hover{
+    background-color: #79000a;
+}
+.menu-sub-item h4:hover{
+    background-color: rgba(136, 0, 0, 0.671);
+    cursor: default;
+}
+.menu-sub-item  h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.menu-sub-item hr{
+    margin: 0;
+}
+#chicken,#beef,#seafood,#mutton,#rice,#vegetable,#soup,#dessert,#specialities{
+    display: none;
+   }
+
+   .title{
+       text-decoration: none;
+   }
+   .product{
+       text-decoration: none;
+       list-style: none;
+       padding-left: 0px;
+       margin: 0;
+       position: relative;
+   }
+   .product ul{
+       display: none;
+       list-style: none;
+       position: absolute;
+       top: 20%;
+       left: 85%;
+       padding: 0;
+
+   }
+   .product li:hover ul{
+       display: block;
+   }
+   .add-cart{
+       background-color: transparent;
+       cursor: grab;
+       border: none;
+       opacity: 75%;
+
+       outline: none;
+   }
+   .add-cart:hover{
+       opacity: 100%;
+       margin-top: 3px;
+       margin-left: 3px;
+   }
+   .order{
+    background-color:rgba(240, 240, 240, 0.692);
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-family: 'Days One';
+   }
+   .order hr{
+       border-width: 3px;
+       border-color: black;
+   }
+   .order input{
+       width: 50px;
+       background-color: transparent;
+       border: 2px solid black;
+       outline: none;
+       border-radius: 5px;
+   }
+   @media (max-width: 422px) {
+    .btn-danger{
+        margin-top: 4px;
+    }
+}
+
+.prod-item button{
+    text-align: end;
+}
+#orderbtn{
+    display: none;
+}
+   
+   
